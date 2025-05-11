@@ -1,3 +1,6 @@
+> [!WARNING]  
+> I no longer use or maintain this project. I don't really code in JavaScript anymore (I switched to Rust). If you want to maintain or fork it let me know (you can email me) and I can put the link here.
+
 # blePeripheral V2
 
 This is a Node.js class for creating a Bluetooth LE (Low Energy) peripheral based on Bluez 5.50 and its D-Bus based API.  This class supports secure encrypted connections to IOS introduced in Bluetooth 4.2 as LE Secure connections. If you want to securely connect your IOS device (Android should also work) to your Raspberry Pi with Bluetooth LE you must implement this level of security or IOS will not allow the device to pair and be bound.
